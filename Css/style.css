@@ -5,6 +5,8 @@ html{
 body{
     margin: 0 auto;
  }
+
+         /*HEADER*/
 header{
   display: flex;
   background-color: #56C596;
@@ -16,7 +18,7 @@ figure img{
   width: 5vw
 }
 header nav{
- margin-left: 43rem;
+ margin-left: 40rem;
   margin-top: 1rem;
   padding-top: 2rem
 }
@@ -73,3 +75,69 @@ header  .dropdown-content a:hover {background-color: #f1f1f1;}
  header .dropdown:hover .dropdown-content {
     display: block;
   }
+
+
+/*MAIN*/
+main .ImageSlogan{
+text-align: center;
+  background-color: grey;
+  padding: 20rem;
+  background-image: url(../medecin/photocabinet.jpg);
+}
+main section{
+  font-size: 3rem;
+}
+
+/*ASIDE*/
+
+aside{
+  display: flex;
+
+}
+.infoMedecin .Kiné{
+  padding: 2rem;
+  margin: 2rem;
+  border: solid black;
+  text-align: center;
+  background-color: #56C596;
+  border-radius: 2rem;
+}
+.infoMedecin .MedecinGénéraliste{
+  padding: 2rem;
+  margin: 2rem;
+  border: solid black;
+  text-align: center;
+  background-color: #56C596;
+  border-radius: 2rem;
+}
+aside img{
+  width: 10vw;
+  border: solid black;
+  border-radius: 2rem;
+}
+aside .styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: #329D9C;
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+  background-color: #56C596;
+}
+
+.styled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
