@@ -83,6 +83,7 @@ text-align: center;
   background-color: grey;
   padding: 20rem;
   background-image: url(../medecin/photocabinet.jpg);
+  background-attachment: fixed;
 }
 main section{
   font-size: 3rem;
@@ -140,4 +141,25 @@ aside .styled {
 .styled:active {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
               inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+footer{
+  background-color: #205072;
+  padding: 2rem;
+  text-align: center;
+}
+footer p{
+  color: #fff;
+}
+footer .iconeAdresse{
+  width: 2vw;
+  padding-right: 1rem;
+}
+footer .iconeMail{
+  width: 2vw;
+  padding-right: 1rem;
+}
+footer .iconeTel{
+  width: 1.5vw;
+  padding-right: 1rem;
 }
