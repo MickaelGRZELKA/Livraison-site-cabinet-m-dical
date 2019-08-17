@@ -75,3 +75,25 @@ header  .dropdown-content a:hover {background-color: #f1f1f1;}
  header .dropdown:hover .dropdown-content {
     display: block;
   }
+  main{
+      display: flex;
+      font-size: 2rem;
+  }
+  main .urgence{
+      background-color: #329D9C;
+      margin: 15rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      border-radius: 2rem;
+  }
+  main .sibesoin{
+      background-color: #329D9C;
+      margin: 15rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      border-radius: 2rem;
+  }
