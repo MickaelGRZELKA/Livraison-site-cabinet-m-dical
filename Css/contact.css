@@ -75,3 +75,52 @@ header  .dropdown-content a:hover {background-color: #f1f1f1;}
  header .dropdown:hover .dropdown-content {
     display: block;
   }
+
+/*MAIN*/
+
+main{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 10rem;
+}
+main .Formulaire{
+ text-align: center;
+  background-color: #329D9C;
+  margin-bottom: 6rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  border-radius: 2rem;
+  padding-bottom: 4rem
+}
+main h1{
+  font-size: 2rem;
+}
+main label{
+  margin-left: -18.8rem;
+}
+.gmap img{
+  width: 40vw;
+  margin-left: 5rem
+}
+    /*FOOTER*/
+footer{
+  background-color: #205072;
+  padding: 2rem;
+  text-align: center;
+}
+footer p{
+  color: #fff;
+  font-size: 2rem;
+}
+footer .iconeAdresse{
+  width: 2vw;
+  padding-right: 1rem;
+}
+footer .iconeMail{
+  width: 2vw;
+  padding-right: 1rem;
+}
+footer .iconeTel{
+  width: 1.5vw;
+  padding-right: 1rem;
+}
