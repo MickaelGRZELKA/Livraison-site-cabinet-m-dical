@@ -80,6 +80,7 @@ main{
   background-color: #7BE495;
   padding-top: 2rem;
   padding-bottom: 5rem;
+  border-radius: 2rem;
 }
 main h1{
   text-align: center;
@@ -96,3 +97,25 @@ main td, tr{
   border: 1rem solid #205072;
   padding: 1.5rem;
 }
+/*FOOTER*/
+footer{
+    background-color: #205072;
+    padding: 2rem;
+    text-align: center;
+  }
+  footer p{
+    color: #fff;
+    font-size: 2rem;
+  }
+  footer .iconeAdresse{
+    width: 2vw;
+    padding-right: 1rem;
+  }
+  footer .iconeMail{
+    width: 2vw;
+    padding-right: 1rem;
+  }
+  footer .iconeTel{
+    width: 1.5vw;
+    padding-right: 1rem;
+  }
