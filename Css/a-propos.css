@@ -97,3 +97,26 @@ header  .dropdown-content a:hover {background-color: #f1f1f1;}
     margin: 5rem;
     font-size: 1.1rem;
   }
+  /*FOOTER*/
+  footer{
+    background-color: #205072;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  footer p{
+    color: #fff;
+    font-size: 2rem;
+  }
+  footer .iconeAdresse{
+    width: 2vw;
+    padding-right: 1rem;
+  }
+  footer .iconeMail{
+    width: 2vw;
+    padding-right: 1rem;
+  }
+  footer .iconeTel{
+    width: 1.5vw;
+    padding-right: 1rem;
+  }
