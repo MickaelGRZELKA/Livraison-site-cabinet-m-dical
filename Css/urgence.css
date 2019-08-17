@@ -75,6 +75,7 @@ header  .dropdown-content a:hover {background-color: #f1f1f1;}
  header .dropdown:hover .dropdown-content {
     display: block;
   }
+  /*MAIN*/
   main{
       display: flex;
       font-size: 2rem;
@@ -96,4 +97,28 @@ header  .dropdown-content a:hover {background-color: #f1f1f1;}
       padding-top: 5rem;
       padding-bottom: 5rem;
       border-radius: 2rem;
+  }
+
+  /*FOOTER*/
+  footer{
+    background-color: #205072;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  footer p{
+    color: #fff;
+    font-size: 2rem;
+  }
+  footer .iconeAdresse{
+    width: 2vw;
+    padding-right: 1rem;
+  }
+  footer .iconeMail{
+    width: 2vw;
+    padding-right: 1rem;
+  }
+  footer .iconeTel{
+    width: 1.5vw;
+    padding-right: 1rem;
   }
