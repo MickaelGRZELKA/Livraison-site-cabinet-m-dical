@@ -75,3 +75,24 @@ header  .dropdown-content a:hover {background-color: #f1f1f1;}
  header .dropdown:hover .dropdown-content {
     display: block;
   }
+main{
+  margin: 10rem;
+  background-color: #7BE495;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+main h1{
+  text-align: center;
+  font-size: 3rem;
+}
+main table{
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 2rem;
+  margin-left: 20rem;
+  background-color: #CFF4D2;
+}
+main td, tr{
+  border: 1rem solid #205072;
+  padding: 1.5rem;
+}
