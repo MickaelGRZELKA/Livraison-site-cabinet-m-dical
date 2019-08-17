@@ -14,11 +14,11 @@
                 <nav class="navbar">
                     <ul>
                         <li><a href="index.html">Acceuil</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                         <li class="dropdown">
                           <a href="" class="dropbtn">Discipline</a>
                           <div class="dropdown-content">
-                            <a href="#">Médecin généraliste</a>
+                            <a href="medecin-generaliste.html">Médecin généraliste</a>
                             <a href="#">Kinésithérapie</a>
                           </div>
                         </li>
@@ -31,19 +31,33 @@
         </header>
         <main>
           <section class="Formulaire">
-            <h1>Contact Us</h1>
+            <h1><u>Contactez-nous</u></h1>
             <form>
-            <input type="text" name="field1" placeholder="Your Name" />
-            <input type="email" name="field2" placeholder="Email Address" />
-            <label for="doctorchoice">Choose your Doctor </label>  
- <select name="doctor">
-      <option value="Émile Quiron">Émile Quiron</option>
-      <option value="Raymond Meunier">Raymond Meunier</option> 
-</select>  
+              <h2>Votre Nom</h2>
+            <input type="text" name="field1" placeholder="Your Name" /><br>
+              <h2>Votre Adresse Email</h2>
+            <input type="email" name="field2" placeholder="Email Address" /><br>
+              <h2>Choisissez votre docteur</h2>
+                <select name="doctor">
+                    <option value="Émile Quiron">Émile Quiron</option>
+                    <option value="Raymond Meunier">Raymond Meunier</option>
+                </select>  <br>
+              <h2>Entrez votre message</h2>
             <textarea name="field3" placeholder="Type your Message"></textarea>
-            <input type="submit" value="Send" />
+            <input type="submit" value="Envoyer" />
             </form>
             </section>
+            <section class="gmap">
+              <img src="images/emplacement cabinet.png" alt="Emplacement du cabinet">
+            </section>
         </main>
+        <footer>
+            <section class="infocabinet">
+             <strong> <p><span><img src="Icone/icone-adresse.png" alt="icone-adresse" class="iconeAdresse"></span>32, Rue Hubert de Lisle 92200 NEUILLY-SUR-SEINE</p>
+              <p><span><img src="Icone/icone-mail.png" alt="icone-Mail" class="iconeMail"></span>medicalfrance at gmail dot com</p>
+              <p><span><img src="Icone/icone-tel.png" alt="icone-Tel" class="iconeTel"></span>03.27.49.56.27</p></strong>
+              <p><marquee>Ceci est un faux site codé dans le cadre d'un exercise.</marquee></p>
+            </section>
+          </footer>
 </body>
 </html>
