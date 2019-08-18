@@ -5,20 +5,36 @@ html{
 body{
     margin: 0 auto;
  }
+ *{
+  margin: 0;
+  padding: 0;
+}
+
+
+
 
          /*HEADER*/
 header{
   display: flex;
-  background-color: #56C596;
+  background:url(../images/banner1.jpg) no-repeat;
+  background-size: cover;
+  border-bottom: .5rem solid black;
+  height: 15rem;
+}
+header .align{
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }
 header h2{
   padding-top: 3rem;
 }
-figure img{
-  width: 5vw
-}
 header nav{
- margin-left: 40rem;
+ margin-left: 20rem;
   margin-top: 1rem;
   padding-top: 2rem
 }
@@ -27,19 +43,18 @@ header nav{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #56C596;
   }
   
  header li {
     float: left;
-   font-size: 1.5rem
+   font-size: 2rem
   }
   
 header li a, .dropbtn {
     display: inline-block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1.4rem 1.6rem;
     text-decoration: none;
   }
   
@@ -57,14 +72,14 @@ header li a, .dropbtn {
     position: absolute;
     background-color: #f9f9f9;
    border-radius: 2rem;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 16rem;
+    box-shadow: 0rem .8rem 1.6rem 0rem rgba(0,0,0,0.2);
     z-index: 1;
   }
   
 header .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 1.2rem 1.6rem;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -74,6 +89,9 @@ header  .dropdown-content a:hover {background-color: #f1f1f1;}
   
  header .dropdown:hover .dropdown-content {
     display: block;
+  }
+  .menu-burger{
+    display: none;
   }
 
 /*MAIN*/
@@ -123,4 +141,7 @@ footer .iconeMail{
 footer .iconeTel{
   width: 1.5vw;
   padding-right: 1rem;
+}
+.phone{
+  font-size: 2.5rem;
 }
